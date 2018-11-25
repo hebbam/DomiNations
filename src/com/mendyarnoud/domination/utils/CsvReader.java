@@ -24,12 +24,12 @@ public class CsvReader {
 					String[] items = line.split(",");
 					Domino domino = new Domino();
 
-					int couronne1 = Integer.parseInt(items[0]);
-					domino.setCouronne1(couronne1);
+					int crowned1 = Integer.parseInt(items[0]);
+					domino.setCrowned1(crowned1);
 					String type1 = items[1];
 					domino.setType1(type1);
-					int couronne2 = Integer.parseInt(items[2]);
-					domino.setCouronne2(couronne2);
+					int crowned2 = Integer.parseInt(items[2]);
+					domino.setCrowned2(crowned2);
 					String type2 = items[3];
 					domino.setType2(type2);
 					int dominoNumber = Integer.parseInt(items[4]);
