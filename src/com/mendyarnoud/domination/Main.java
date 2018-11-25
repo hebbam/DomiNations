@@ -9,7 +9,7 @@ import com.mendyarnoud.domination.utils.CsvReader;
 public class Main {
 
 	public static void main(String[] args) throws IOException {
-		List<Domino> dominos = CsvReader.readCsvFile("/home/hebbam/Téléchargements/dominos.csv");
+		List<Domino> dominos = CsvReader.readCsvFile("dominos.csv");
 		for (Domino domino : dominos) {
 			System.out.println(domino);
 		}

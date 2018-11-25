@@ -39,6 +39,7 @@ public class CsvReader {
 				index++;
 			}
 		} catch (Exception e) {
+			
 
 		} finally {
 			br.close();
