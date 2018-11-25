@@ -38,12 +38,12 @@ public class CsvReader {
 				}
 				index++;
 			}
+				br.close();
 		} catch (Exception e) {
 			
-
-		} finally {
-			br.close();
-		}
+			System.out.println("Erreur : les dominos ont pas été correctement chargé");
+			
+		} 
 		return dominos;
 	}
 
